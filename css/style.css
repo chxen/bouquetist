@@ -79,11 +79,13 @@ img {
     text-align: center;
     padding: 20px;
     width: 33%;
+    text-align: justify;
 }
 
 .feature-item h3 {
     font-size: 30px;
     line-height: 42px;
+    text-align: center;
 }
 
 /* blog */

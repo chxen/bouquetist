@@ -1,0 +1,112 @@
+:root {
+    --cotton: #FDFFFF;
+    --light-green: #B3DE81;
+    --green-been: #68A225;
+    --emerald: #265C00;
+}
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--green-been);
+    text-transform: uppercase;
+    background-color: var(--cotton);
+    background-image: url();
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: var(--green-been);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* main */
+.main-navigation {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--cotton);
+    background-color: var(--light-green);
+    text-transform: none;
+}
+
+.main-navigation a {
+    color: var(--green-been);
+}
+
+.main-header-logo {}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.shopping-bag a:hover,
+.shopping-bag a:focus {
+     color: var(--emerald);
+}
+
+/* features */
+.container {}
+
+.features {}
+
+.feature-list {}
+
+.feature-item {}
+
+/* blog */
+.blog {}
+
+.blog-list {}
+
+.blog-item {}
+
+/* gallery */
+.photo-gallery {}
+
+.gallery-content {}
+
+.button {}
+
+.button-back {}
+
+.button-buy {}
+
+.button-forward {}
+
+/* footer */
+.footer-main {
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--green-been);
+    background-color: var(--light-green);
+    text-transform: none;
+}
+
+.footer-main a {
+    color: var(--green-been);
+}
+
+.footer-contacts {}
+
+.footer-contacts-phone {}
+
+.footer-media {}
+
+.media-button {}
+
+.footer-menu {}
+
+.footer-menu-button {}

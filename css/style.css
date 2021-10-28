@@ -42,6 +42,7 @@ img {
     color: var(--cotton);
     background-color: var(--light-green);
     text-transform: none;
+    display: flex;
 }
 
 .main-navigation a {
@@ -52,7 +53,9 @@ img {
 
 .site-navigation {
     list-style: none;
+    display: flex;
 }
+
 
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -66,9 +69,19 @@ img {
 
 .features {}
 
-.feature-list {}
+.feature-list {
+    list-style: none;
+    display: flex;
+}
 
-.feature-item {}
+.feature-item {
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 30px;
+    line-height: 42px;
+}
 
 /* blog */
 .blog {}

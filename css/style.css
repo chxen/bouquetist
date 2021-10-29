@@ -18,9 +18,9 @@ body {
     line-height: 24px;
     font-weight: 700;
     color: var(--green-been);
-    background-image: url("img/back-img.jpg");
+    background-image: url("../img/back-img.jpg");
     background-position: top center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .page-body {
@@ -80,7 +80,6 @@ img {
 .main-header-logo {
     order: 1;
     justify-self: center;
-    background-color: var(--cotton);
 }
 
 .site-navigation {

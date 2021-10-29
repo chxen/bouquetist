@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Букетист - букеты с бесплатной доставкой</title>
@@ -8,35 +8,40 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-body">
+
 <header class="main-header">
     <nav class="main-navigation">
-        <a class="main-header-logo"><img src="img/logo.jpg" alt="Логотип"></a>
-        <ul class="site-navigation">
-            <li><a href="#">Букеты с бесплатной доставкой</a></li>
-            <li><a href="#">Новая коллекция</a></li>
-            <li><a href="#">Букеты</a></li>
-            <ul>
-                <li><a href="#">Цветы и букеты</a></li>
-                <li><a href="#">Сухоцветы</a></li>
-                <li><a href="#">Цветочная подписка</a></li>
-                <li><a href="#">Зимняя коллекция</a></li>
-            </ul>
-            <li><a href="#">Свадьба</a></li>
-            <ul>
-                <li><a href="#">Букет невесты</a></li>
-                <li><a href="#">Свадебная флористика</a></li>
-            </ul>
-            <li><a href="#">Другие товары</a></li>
-            <ul>
-                <li><a href="#">Флорариумы</a></li>
-                <li><a href="#">Корзины, коробки</a></li>
-                <li><a href="#">Авторские открытки</a></li>
-                <li><a href="#">Приятные мелочи</a></li>
-            </ul>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Корпоративным клиентам</a></li>
-        </ul>
-        <a class="shopping-bag" href="#">Корзина</a>
+        <a class="main-header-logo"><img src="img/logo.jpg" height="250px" alt="Логотип"></a>
+        <div class="main-header-bar">
+            <div class="main-navigation-wrapper">
+                <ul class="site-navigation">
+                    <li><a href="#">Бесплатная доставка</a></li>
+                    <li><a href="#">Новая коллекция</a></li>
+                    <li class="down"><a href="#">Букеты</a></li>
+                    <!-- <ul class="submenu">
+                        <li class="down_item"><a href="#">Цветы и букеты</a></li>
+                        <li class="down_item"><a href="#">Сухоцветы</a></li>
+                        <li class="down_item"><a href="#">Цветочная подписка</a></li>
+                        <li class="down_item"><a href="#">Зимняя коллекция</a></li>
+                    </ul> -->
+                    <li><a href="#">Свадьба</a></li>
+                    <!-- <ul>
+                        <li><a href="#">Букет невесты</a></li>
+                        <li><a href="#">Свадебная флористика</a></li>
+                    </ul> -->
+                    <li><a href="#">Другие товары</a></li>
+                    <!-- <ul>
+                        <li><a href="#">Флорариумы</a></li>
+                        <li><a href="#">Корзины, коробки</a></li>
+                        <li><a href="#">Авторские открытки</a></li>
+                        <li><a href="#">Приятные мелочи</a></li>
+                    </ul> -->
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Корпоративным клиентам</a></li>
+                </ul>
+                <a class="shopping-bag" href="#">Корзина</a>
+            </div>
+        </div>
     </nav>
 </header>
 <main class="container">
@@ -46,23 +51,18 @@
         <ul class="feature-list">
             <li class="feature-item">
             <h3>Большой выбор</h3>
-            <p>АССОРТИМЕНТ САЙТА ОБНОВЛЯЕТСЯ НЕСКОЛЬКО РАЗ В НЕДЕЛЮ
-                В ЗАВИСИМОСТИ ОТ СЕЗОННОСТИ И НАЛИЧИЯ ЦВЕТОВ. МЫ ЦЕНИМ
-                РАЗНООБРАЗИЕ И ХОТИМ, ЧТОБЫ У НАШИХ КЛИЕНТОВ БЫЛ ДОСТОЙНЫЙ
-                ВЫБОР СВЕЖИХ И КРАСИВЫХ ЦВЕТОВ НА ЛЮБОЙ ВКУС</p>
+            <p>Ассортимент сайта обновляется несколько раз в неделю
+               в зависимости от сезонности и наличия цветов</p>
             </li>
             <li class="feature-item">
             <h3>Доступные цены</h3>
-            <p>Наш магазин предлагает доступные цены на букеты любого вида.
-                Можно заказать, как один букет, так и оформить абонемент на
-                цветочную доставку. На сезонные букеты часто бывают скидки,
-                так что сдедите за обновлениями!</p>
+            <p>Мы предлагаем доступные цены на букеты любого вида.
+                Можно оформить абонемент на цветочную доставку</p>
             </li>
             <li class="feature-item">
             <h3>Доставка</h3>
-            <p>Доставим букет к вашему дому, даже в условиях пандемии.
-               Бесплатная доставка на определенные букеты действует
-                только в пределах МКАД.</p>
+            <p>Доставим букет к вашему дому, несмотря на пандемию.
+                В пределах МКАД действует бесплатная доставка</p>
             </li>
         </ul>
     </section>
@@ -87,7 +87,8 @@
             </ul>
         </section>
     </section>
-    <section class="blog">
+    <section class="else-info">
+    <div class="blog">
         <h2>Блог</h2>
         <ul class="blog-list">
             <li class="blog-item">Режим работы магазина в период пандемии</li>
@@ -97,8 +98,8 @@
             <li class="blog-item">Как создается арка при выездной регистрации</li>
             <li class="blog-item">Букет невесты</li>
         </ul>
-    </section>
-    <section class="photo-gallery">
+    </div>
+    <div class="photo-gallery">
         <h2>Популярные букеты</h2>
         <figure class="gallery-content">
             <a href="bouquet/bouquet2.html">
@@ -108,6 +109,7 @@
         <button class="button button-back" type="button">Назад</button>
         <button class="button button-buy" type="button">Купить букет</button>
         <button class="button button-forward" type="button">Вперед</button>
+    </div>
     </section>
 </main>
 <footer class="footer-main">
@@ -132,5 +134,6 @@
         <li class="footer-menu-button"><a href="#">Доставка и оплата</a></li>
     </section>
 </footer>
+
 </body>
 </html>
